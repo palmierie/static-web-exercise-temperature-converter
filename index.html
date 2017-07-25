@@ -5,9 +5,20 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Temperature Converter</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
-  
+  <div id="wrap">
+  <form id="form">
+    <h2>Input Temperature</h2>
+    <input type="text" id="inputTemp" value=""><br>
+    <label for="radio">Convert to:</label><br>
+    <input type="radio" id="celsiusRadio" value="Celsius"> Celsius<br>
+    <input type="radio" id="fahrenheitRadio" value="Fahrenheit"> Fahrenheit<br>
+    <input type="button" value="Convert">
+
+  </form>
+  </div>
   <script src="converter.js"></script>
 </body>
 </html>
