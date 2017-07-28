@@ -8,16 +8,22 @@
   <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
-  <div id="wrap">
+  <div>
+    <section id="wrap">
   <form id="form">
     <h2>Input Temperature</h2>
     <input type="text" id="inputTemp" value=""><br>
     <label for="radio">Convert to:</label><br>
-    <input type="radio" id="celsiusRadio" value="Celsius"> Celsius<br>
-    <input type="radio" id="fahrenheitRadio" value="Fahrenheit"> Fahrenheit<br>
-    <input type="button" value="Convert">
-
+    <input type="radio" name="radio" class="radio" value="0" checked> Celsius<br>
+    <input type="radio" name="radio" class="radio" value="1"> Fahrenheit<br>
+    <input type="button" id="converter" value="Convert">
+    <input type="button" id="clear" value="Clear">
   </form>
+  <div>
+    <h2>Converted Temperature</h2>
+    <input type="text" id="outputTemp"><br>
+  </div>
+  </section>
   </div>
   <script src="converter.js"></script>
 </body>

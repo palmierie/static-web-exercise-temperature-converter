@@ -1,4 +1,16 @@
 #wrap{
-  width: 100%;
+  width: 40%;
   margin: 0 auto;
+}
+
+.blue{
+  background-color: lightblue;
+}
+
+.green{
+  background-color: lightgreen;
+}
+
+.red{
+  background-color: lightcoral;
 }
